@@ -3,9 +3,9 @@
 cost-optimization-tool/  
 │  
 ├── lambda-functions/  
-│       ├── identify_idle_resources.py  
-│       ├── put_price_of_idle_resources.py  
-│       ├── cleanup_resources.py  
+│       ├── bbi-hackathon-identifier.py    
+│       ├── bbi-hackathon-pricecalc.py  
+│       ├── bbi-hackathon-cleanup.py 
 │  
 ├── ui/  
 │   ├── (Add your UI files here)  
@@ -23,9 +23,9 @@ cost-optimization-tool/
 This repository contains a set of Lambda functions and associated components for identifying, analyzing, and cleaning up idle AWS resources to optimize costs. The solution includes:
 
 1. **AWS Lambda Functions**:
-   - `identify_idle_resources.py`: Identifies idle resources like EC2 instances and stores data in DynamoDB.
-   - `put_price_of_idle_resources.py`: Fetches the cost of idle resources using AWS Pricing API and provides insights for optimization.
-   - `cleanup_resources.py`: Performs resource cleanup (e.g., terminating EC2 instances or archiving S3 objects) based on user approval.
+   - `bbi-hackathon-identifier.py`: Identifies idle resources like EC2 instances and stores data in DynamoDB.
+   - `bbi-hackathon-pricecalc.py`: Fetches the cost of idle resources using AWS Pricing API and provides insights for optimization.
+   - `bbi-hackathon-cleanup.py`: Performs resource cleanup (e.g., terminating EC2 instances or archiving S3 objects) based on user approval.
 
 2. **UI**: Built using Vercel, the interface allows users to approve or reject cleanup actions.
 3. **DynamoDB**: Data storage for resource status, actions, and metadata.
