@@ -1,25 +1,5 @@
 # aws-hackathon-cost-optimization-tool
 
-cost-optimization-tool/  
-│  
-├── lambda-functions/  
-│       ├── bbi-hackathon-identifier.py    
-│       ├── bbi-hackathon-pricecalc.py  
-│       ├── bbi-hackathon-cleanup.py  
-│  
-├── ui/  
-│   ├── (Add your UI files here)  
-│  
-├── dynamodb/  
-│   ├── (Add DynamoDB schema details or utility scripts here)  
-│  
-├── quicksight/  
-│   ├── (Add QuickSight integration details or sample reports here)  
-│  
-└── README.md  
-
-# Cost Optimization Tool
-
 This repository contains a set of Lambda functions and associated components for identifying, analyzing, and cleaning up idle AWS resources to optimize costs. The solution includes:
 
 1. **AWS Lambda Functions**:
