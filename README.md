@@ -1,22 +1,22 @@
 # aws-hackathon-cost-optimization-tool
 
-cost-optimization-tool/
-│
-├── lambda-functions/
-│   ├── identify_idle_resources.py
-│   ├── put_price_of_idle_resources.py
-│   ├── cleanup_resources.py
-│
-├── ui/
-│   ├── (Add your UI files here)
-│
-├── dynamodb/
-│   ├── (Add DynamoDB schema details or utility scripts here)
-│
-├── quicksight/
-│   ├── (Add QuickSight integration details or sample reports here)
-│
-└── README.md
+cost-optimization-tool/  
+│  
+├── lambda-functions/  
+│       ├── identify_idle_resources.py  
+│       ├── put_price_of_idle_resources.py  
+│       ├── cleanup_resources.py  
+│  
+├── ui/  
+│   ├── (Add your UI files here)  
+│  
+├── dynamodb/  
+│   ├── (Add DynamoDB schema details or utility scripts here)  
+│  
+├── quicksight/  
+│   ├── (Add QuickSight integration details or sample reports here)  
+│  
+└── README.md  
 
 # Cost Optimization Tool
 
