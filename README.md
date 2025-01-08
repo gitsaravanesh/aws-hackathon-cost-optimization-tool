@@ -5,7 +5,7 @@ cost-optimization-tool/
 ├── lambda-functions/  
 │       ├── bbi-hackathon-identifier.py    
 │       ├── bbi-hackathon-pricecalc.py  
-│       ├── bbi-hackathon-cleanup.py 
+│       ├── bbi-hackathon-cleanup.py  
 │  
 ├── ui/  
 │   ├── (Add your UI files here)  
